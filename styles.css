@@ -1,0 +1,158 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.nav {
+	background-color: #487fa2;
+	height: 60px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+}
+
+.nav h3 {
+	margin: 0;
+	font-family: "Jura";
+	margin-left: 15px;
+	font-size: 27px;
+}
+
+.main-container {
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+.select-section {
+	width: 350px;
+	height: 500px;
+	background-color: #ececec;
+	margin-top: 45px;
+	margin-left: 60px;
+	height: 560px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 5px;
+}
+
+.select-section h3 {
+	font-family: "Jura";
+	font-size: 30px;
+	margin: 0;
+	margin-top: 20px;
+}
+
+.select-section h4 {
+	font-family: "PT Sans";
+	margin: 0;
+}
+
+.horizontal-section {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10%;
+	flex: 1;
+}
+
+.input-section,
+.output-section {
+	/* width: 55%; */
+	/* width: 20%; */
+	/* width: 750px; */
+	width: 90%;
+	height: 290px;
+	/* background-color: #d9d9d9; */
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+}
+
+.input-section {
+	/* margin-bottom: 20px; */
+	margin-top: 45px;
+}
+
+.input-section h3,
+.output-section h3 {
+	font-family: "Jura";
+	font-size: 30px;
+	margin: 0;
+	margin-top: 20px;
+	/* width: 100%; */
+}
+
+.input-section h3 {
+	margin-top: 0;
+}
+
+.input,
+.output {
+	margin-top: 7px;
+	border: none;
+	border-radius: 5px;
+	/* width: 90%; */
+	height: 65%;
+	/* background-color: #d9d9d9; */
+	border: 2px solid #676767;
+	vertical-align: text-top;
+	font-family: "PT Sans";
+	font-size: 20px;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	resize: none;
+}
+
+.output {
+	margin-top: 7px;
+	border: 2px solid #676767;
+	width: 90%;
+	height: 65%;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.test1 {
+}
+
+.line {
+	border: 1.25px solid rgb(89, 159, 240);
+	width: 90%;
+	padding: 0;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.test {
+	width: 100%;
+	text-align: center;
+	padding: 16.3px 0px;
+	/* padding: 10px; */
+	/* border-bottom: 2px solid black; */
+	font-size: 20px;
+	/* background-color: #d9d9d9; */
+	font-family: "PT Sans";
+	cursor: pointer;
+}
+
+.test:hover {
+	background-color: #d9d9d9;
+}
+
+.solve-btn {
+	width: 100px;
+	height: 40px;
+	background-color: #69aed8;
+	font-family: "PT Sans";
+	font-size: 25px;
+	border: none;
+	/* font-weight: 800; */
+	border-radius: 5px;
+	/* margin: 0 auto; */
+	margin-top: -30px;
+	cursor: pointer;
+}

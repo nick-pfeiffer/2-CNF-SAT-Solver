@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<title>2CNF-SAT</title>
+	</head>
+	<body>
+		<div class="nav">
+			<h3>2-CNF SAT Solver</h3>
+		</div>
+		<div class="main-container">
+			<div class="select-section">
+				<h3>Select Example</h3>
+				<h4>or enter your own input</h4>
+				<hr class="line" />
+				<div class="test test1" id="test1">Test 1</div>
+				<div class="test test2" id="test2">Test 2</div>
+				<div class="test test3" id="test3">Test 3</div>
+				<div class="test test4" id="test4">Test 4</div>
+				<div class="test test5" id="test5">Test 5</div>
+				<div class="test test6" id="test6">Test 6</div>
+				<div class="test test7" id="test7">Test 7</div>
+				<div class="test test8" id="test8">Test 8</div>
+			</div>
+
+			<div class="horizontal-section">
+				<div class="input-section">
+					<h3>Input</h3>
+					<textarea
+						class="input"
+						placeholder="Enter boolean formula in 2-Conjunctive Normal Format. Select a test for reference"
+					></textarea>
+				</div>
+				<button class="solve-btn">Solve</button>
+				<div class="output-section">
+					<h3>Satisfying Assignment</h3>
+					<div class="output"></div>
+				</div>
+			</div>
+		</div>
+		<script src="solve.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
